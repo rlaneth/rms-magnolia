@@ -29,11 +29,11 @@ MENU_MAIN                 db 3    ; Menu length (in items)
                           dw MENU_HELP_STR_EXIT
                           dw 0
 
-MENU_STR_GAMES            db 'Games ', 0xAF, 0x00
-MENU_HELP_STR_GAMES       db 'Run games.', 0x00
+MENU_STR_GAMES            db 'Jogos ', 0xAF, 0x00
+MENU_HELP_STR_GAMES       db 'Ir ao menu de jogos.', 0x00
 
-MENU_STR_TOOLS            db 'Tools ', 0xAF, 0x00
-MENU_HELP_STR_TOOLS       db 'Run general utilities.', 0x00
+MENU_STR_TOOLS            db 'Ferramentas ', 0xAF, 0x00
+MENU_HELP_STR_TOOLS       db 'Ir ao menu de utilidades gerais.', 0x00
 
 ; ---------------------------------------------------------------------
 
@@ -48,7 +48,7 @@ MENU_GAMES                db 2    ; Menu length (in items)
                           dw 0
 
 MENU_STR_FLOPPYBIRD       db 'Floppy Bird', 0x00
-MENU_HELP_STR_FLOPPYBIRD  db 'A clone of the Flappy Bird game.', 0x00
+MENU_HELP_STR_FLOPPYBIRD  db 'Um clone do famoso Flappy Bird!', 0x00
 
 ; ---------------------------------------------------------------------
 
@@ -62,20 +62,20 @@ MENU_TOOLS                db 2    ; Menu length (in items)
                           dw MENU_HELP_STR_BACK
                           dw 0
 
-MENU_STR_PCSPEAKER        db 'PC Speaker Test', 0x00
-MENU_HELP_STR_PCSPEAKER   db 'Play a simple tune through the', 0x0A
-                          db 'onboard PC Speaker.', 0x00
+MENU_STR_PCSPEAKER        db 'Teste de autofalante', 0x00
+MENU_HELP_STR_PCSPEAKER   db 'Toca algumas notas por meio do ', 0x0A,
+                          db 'autofalante embarcado.', 0x00
 
 ; ---------------------------------------------------------------------
 
 MENU_STR_TITLE            db 'Menu', 0x00
-MENU_HELP_STR_TITLE       db 'Help', 0x00
+MENU_HELP_STR_TITLE       db 'Detalhes', 0x00
 
-MENU_STR_BACK             db 'Back', 0x00
-MENU_HELP_STR_BACK        db 'Return to the previous menu.', 0x00
+MENU_STR_BACK             db 'Voltar', 0x00
+MENU_HELP_STR_BACK        db 'Retorna ao menu anterior.', 0x00
 
-MENU_STR_EXIT             db 'Exit', 0x00
-MENU_HELP_STR_EXIT        db 'Reboot the PC.', 0x00
+MENU_STR_EXIT             db 'Sair', 0x00
+MENU_HELP_STR_EXIT        db 'Reinicia o PC.', 0x00
 
 ; ---------------------------------------------------------------------
 

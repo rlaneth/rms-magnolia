@@ -1,4 +1,4 @@
-SPLASH_STR_TEXT     db 'Press M to enter Magnolia', 0x00
+SPLASH_STR_TEXT     db 'Aperte M se voc', 0x88, ' for um maker', 0x00
 SPLASH_STR_PROGRESS db '.', 0x00
 
 splash:
@@ -15,8 +15,8 @@ splash:
 
         push cx
         xor cx, cx
-        mov cl, 0x07
-        mov dx, 0xA120
+        mov cl, 0x000F
+        mov dx, 0xFFFF
         call sleep
         pop cx
 

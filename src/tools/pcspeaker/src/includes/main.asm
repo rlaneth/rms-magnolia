@@ -1,9 +1,9 @@
 DEFAULT_ATTR_TITLE equ 00001111b
 DEFAULT_ATTR_TEXT  equ 00000111b
 
-STR_TITLE          db 'PC Speaker Test', 0x00
-STR_WAIT           db 'Press P to play or ESC to exit', 0x00
-STR_PLAYING        db 'Playing... Press ESC to stop  ', 0x00
+STR_TITLE          db 'Teste de autofalante', 0x00
+STR_WAIT           db 'Pressione P para tocar ou ESC para sair  ', 0x00
+STR_PLAYING        db 'Tocando... Pressione ESC para interromper', 0x00
 
 main:
     call clear_screen
